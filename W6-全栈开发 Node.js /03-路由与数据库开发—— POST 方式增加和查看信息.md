@@ -1,2 +1,13 @@
+数据库创建命令：
+
+```bash
+CREATE TABLE IF NOT EXISTS `blog`(
+   `blog_id` INT UNSIGNED AUTO_INCREMENT,
+   `blog_title` VARCHAR(100) NOT NULL,
+   `blog_body` VARCHAR(255) NOT NULL
+   PRIMARY KEY ( `blog_id` )
+)
+```
+
 [下载参考答案](https://labfile.oss.aliyuncs.com/courses/4380/blog-answer.zip)
 
